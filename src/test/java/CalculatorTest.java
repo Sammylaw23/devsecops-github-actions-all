@@ -13,8 +13,8 @@ public class CalculatorTest {
     public void verifyAdditionOne() {
 
 		Calculator calculator = new Calculator();
-        int sum = calculator.addition("5+2");
-        assertEquals(7, sum);
+        int sum = calculator.addition("5+3");
+        assertEquals(8, sum);
     }
 	
 	@Test
